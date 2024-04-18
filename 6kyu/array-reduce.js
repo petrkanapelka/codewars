@@ -22,4 +22,5 @@ Array.prototype.reduce = function(process, initialValue) {
       }
     }
     return initialValue;
+    ///
 }
