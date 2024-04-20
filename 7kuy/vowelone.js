@@ -5,7 +5,7 @@ Write a function that takes a string and outputs a strings of 1's and 0's where 
 
 All non-vowels including non alpha characters (spaces,commas etc.) should be included.
  */
-function vowelOne(s){
+function vowelOn(s){
     let vowels =['a','e','i','o','u']
     s=s.toLowerCase()
     return Object.values(s).map((el,index)=>vowels.includes(el)?el=1:el=0).join('')
