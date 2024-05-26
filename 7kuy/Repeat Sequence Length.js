@@ -18,13 +18,5 @@ function repeatSequenceLen(a) {
   return lastIndex - firstIndex;
 }
 
-/*
-assert.strictEqual(repeatSequenceLen(1), 1, 'repeatSequenceLen(1)')
-    assert.strictEqual(repeatSequenceLen(85), 8, 'repeatSequenceLen(85)')
-    assert.strictEqual(repeatSequenceLen(810), 8, 'repeatSequenceLen(810)')
-    assert.strictEqual(repeatSequenceLen(812), 8, 'repeatSequenceLen(812)')
-    assert.strictEqual(repeatSequenceLen(818), 1, 'repeatSequenceLen(818)')
-    assert.strictEqual(repeatSequenceLen(833), 1, 'repeatSequenceLen(833)')
-*/
 
-repeatSequenceLen(812); // 1
+repeatSequenceLen(812);
