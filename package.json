@@ -1,0 +1,20 @@
+{
+  "name": "Codewars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:petrkanapelka/codewars.git",
+  "author": "Petr Kanapelka <kanapelka.petr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "eslint": "9.x",
+    "eslint-watch": "^8.0.0",
+    "globals": "^15.8.0",
+    "watch-cli": "^0.2.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:watched": "esw -w .",
+    "lint:watch": "watch 'yarn lint' ./"
+  }
+}
