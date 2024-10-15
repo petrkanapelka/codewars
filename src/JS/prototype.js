@@ -1,3 +1,4 @@
+// @ts-nocheck
 function Vehicle(type) {
     this.type = type;
 }
